@@ -13,7 +13,7 @@ python-dotenv==1.0.1
 # =========================
 # LLM PROVIDERS
 # =========================
-mistralai==0.4.3
+mistralai==2.4.0
 google-generativeai==0.8.6
 openai==1.56.0
 
