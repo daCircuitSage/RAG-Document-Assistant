@@ -1,0 +1,42 @@
+# Production requirements (tested versions)
+# Install with: pip install -r requirements.txt
+
+# Core web framework
+streamlit==1.41.1
+fastapi==0.115.5
+uvicorn==0.32.1
+
+# Environment management
+python-dotenv==1.0.1
+
+# LLM providers
+mistralai==0.4.3
+google-generativeai==0.8.6
+openai==1.56.0
+
+# LangChain ecosystem
+langchain==0.2.16
+langchain-core==0.2.47
+langchain-community==0.2.16
+langchain-text-splitters==0.2.2
+
+# LLM integrations
+langchain-mistralai==0.1.19
+langchain-google-genai==0.0.14
+langchain-openai==0.1.35
+
+# Vector databases
+chromadb==1.5.7
+faiss-cpu==1.10.0
+
+# Embeddings & document processing
+sentence-transformers==3.4.1
+pypdf==4.3.1
+beautifulsoup4==4.14.3
+python-docx==1.0.1
+unstructured==0.15.33
+
+# Utilities
+requests==2.33.0
+aiohttp==3.13.5
+typing-extensions==4.12.2
