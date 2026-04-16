@@ -1,56 +1,57 @@
 # =========================
 # CORE WEB FRAMEWORK
 # =========================
-streamlit==1.41.1
-fastapi==0.115.5
-uvicorn==0.32.1
+streamlit>=1.28.0
+fastapi>=0.100.0
+uvicorn>=0.24.0
 
 # =========================
 # ENV MANAGEMENT
 # =========================
-python-dotenv==1.0.1
+python-dotenv>=1.0.0
 
 # =========================
 # LLM PROVIDERS
 # =========================
-mistralai==2.4.0
-google-generativeai==0.8.6
-openai==1.56.0
+mistralai>=2.0.0
+google-generativeai>=0.3.0
+openai>=1.0.0
 
 # =========================
-# LANGCHAIN & CORE
+# LANGCHAIN ECOSYSTEM (Flexible versioning for compatibility)
 # =========================
-langchain==0.2.16
-langchain-core==0.2.47
-langchain-community==0.2.16
-langchain-text-splitters==0.2.2
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.1.0
+langchain-text-splitters>=0.0.1
 
 # LLM INTEGRATIONS
-langchain-mistralai==0.1.19
-langchain-google-genai==0.0.14
-langchain-openai==0.1.35
+langchain-mistralai>=0.0.1
+langchain-google-genai>=0.0.1
+langchain-openai>=0.0.1
 
 # =========================
 # VECTOR DATABASES (RAG MEMORY)
 # =========================
-chromadb==1.5.7
-faiss-cpu==1.10.0
+chromadb>=0.3.21
+faiss-cpu>=1.7.0
 
 # =========================
 # EMBEDDINGS & DOCUMENT PROCESSING
 # =========================
-sentence-transformers==3.4.1
-pypdf==4.3.1
-beautifulsoup4==4.14.3
-python-docx==1.0.1
-unstructured==0.15.33
+sentence-transformers>=2.2.0
+pypdf>=3.0.0
+beautifulsoup4>=4.11.0
+python-docx>=0.8.10
+unstructured>=0.7.0
 
 # =========================
-# UTILITIES
+# UTILITIES & CORE DEPENDENCIES
 # =========================
-requests==2.33.0
-aiohttp==3.13.5
-typing-extensions==4.12.2
+pydantic>=2.0.0
+requests>=2.30.0
+aiohttp>=3.8.0
+typing-extensions>=4.5.0
 
 # =========================
 # DATA HANDLING
